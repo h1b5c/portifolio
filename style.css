@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Pacifico&family=Vast+Shadow&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-color: #547F9C;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-family: "LXGW WenKai Mono TC", system-ui;
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    font-family: "LXGW WenKai Mono TC", system-ui;
+    font-weight: bold;
+    font-size: larger;
+    color: #F0C732;
+}
+
+a:hover {
+    color: #F0A132;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* INÍCIO HEADER */
+
+header {
+    width: 100%;
+    background-color: #32A4F0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.40);
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    border-bottom: 2px solid #F0A132;
+    z-index: 1000;
+    position: absolute;
+    position: fixed;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+/* FIM HEADER */
+
+
+/* INÍCIO MAIN */
+
+main {
+    margin-top: 150px;
+}
+
+.placaSesi {
+    height: 600px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+
+/* FIM MAIN */
+
+
+
+/* INÍCIO FOOTER */
+footer {
+    width: 100%;
+    background-color: #32A4F0;
+    border-top: 2px solid #547F9C;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0.313rem;
+}
+
+footer img {
+    width: 3.125rem;
+    height: auto;
+}
+
+/* FIM FOOTER */
+
+
+
+
+
+/* ------------------------------- Biografia --------------------------------------------- */
+.henrique {
+    padding: 0 12rem 0 12.5rem;
+    margin-bottom: 12rem;
+    gap: 1.875rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ------------------------------- Portifólio --------------------------------------------- */
+
+.horizontal img {
+    border-radius: 5%;
+}
+
+.horizontal img:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.horizontal div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #F0A132;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.vertical img:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.vertical img {
+    border-radius: 5%;
+}
+
+.vertical div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #F0A132;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+
+.horizontal img {
+    width: 500px;
+    height: auto;
+}
+
+.vertical img {
+    width: auto;
+    height: 500px;
+}
+
+/* ------------------------------- Contato --------------------------------------------- */
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    width: 75%;
+}
+
+.contato {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #32A4F0;
+    border-radius: 5px;
+}
+
+.contato2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
